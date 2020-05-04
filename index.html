@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Progressive Web Application</title>
+    <title>ATTENTION DISPLAY</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -20,6 +20,18 @@
   </head>
   <body>
 
+    <div id="startupvideo">
+      <video id="video3" src="/video/video startup.mp4" autoplay muted></video>
+  </div>
+
+  <div id="idlevideo">
+      <video id="video1" src="/video/idle.mp4" autoplay loop muted></video>
+  </div>       
+
+  <div id="activevideo">
+      <!-- <video id="video2" src="/video/active.mp4" muted></video> -->
+      <video id="video2" src="/video/active.mp4" muted></video>
+  </div>
 
 
     <!-- OUR PWA JAVASCRIPT FILE -->
@@ -29,6 +41,12 @@
     <script src="scripts/p5/p5.min.js"></script>
     <script src="scripts/p5/p5.dom.min.js"></script>
     <!-- <script src="scripts/p5/p5.sound.min.js"></script> -->
+
+            <!-- FACE LIBRARIES -->
+            <script src="/scripts/p5/libraries/ml5/ml5.min.js"></script>
+            <script src="/scripts/p5/emotionmodel.js"></script>
+            <script src="/scripts/p5/emotion_classifier.js"></script>
+            <script src="/scripts/p5/face-api.min.js"></script>
 
     <!-- P5 LIBRARIES -->
     <!-- <script src="scripts/p5/libraries/p5.collide2d/p5.collide2d.min.js"></script> -->
